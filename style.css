@@ -1,0 +1,378 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./image/slider-02.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    text-align: center;
+    position:relative
+    
+    
+}
+.card{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.animation-text{
+    color: white;
+    font-size: 24px;
+}
+.animation-text::after{
+    width: 10ch;
+    content: "Designer";
+     color: white;
+    display: inline-block;
+    font-size: 24px;
+    border-right: 2px solid white;
+    animation: changeText 2s infinite;
+    animation-direction: alternate;
+    overflow: hidden;
+    
+}
+
+@keyframes  changeText {
+    0%{content: "Designer"; }
+    50%{content: "Developer";}
+    100%{content: "Designer";}
+    form {width: 10%;}
+    to {width: 0%;}
+}
+
+.header_logo{
+color:#ff305b;
+font-family: sans-serif;
+font-size:24px;	
+line-height:25px;
+vertical-align:baseline;
+font-weight:800;
+text-decoration:none solid rgb(255, 48, 91);
+text-align:start;
+width: 100px;
+float: left;
+padding: 20px 15%;
+
+
+}
+.link{
+    float: right;
+    padding: 15px 10%;
+    
+}
+.link li {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.link li a {
+    text-decoration: none;
+    color: white;}
+    .color{
+        color: #b71a21;
+    }
+
+.alex{
+    
+    color:#ff305b ;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform:uppercase;
+    text-decoration:none solid rgb(255, 48, 91);
+    
+}
+.Home p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.hello{
+    font-size: 24px;
+    font-weight: 600;
+}
+.hel::before{
+    content: " ";
+    left: 0;
+    top: 0;
+    border: 3px solid #ec2403;  
+}
+.data h3{
+    font-size: 30px;
+}
+.text{
+    padding: 250px;
+}
+.clear-fix{
+    clear: both;
+}
+.persona{
+    margin: 10px auto;
+    width: 80%;
+    
+}
+.data{
+    width: 45%;
+    float: right;
+    margin-right: 120px;
+    margin-top: 30px;
+    
+}
+
+.shadow img{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 40px;
+    float: left;
+}
+
+.shadow{
+    width: 30%;
+    position: relative;
+    
+} 
+.shadow::after{
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 70px;
+    width: 90%;
+    height: 450px;
+    border: 8px solid #555555;
+    border-radius: 5px;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.spics li {
+    display: inline-block;
+    padding: 15px 7%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: black;
+    
+}
+.but{
+    background-color: #ff305b;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.perent{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 100px;
+}
+
+.bord{
+    width: 100px;
+    border: 1px solid #ff305b;
+    margin: 3px auto;
+}
+.auto{
+    width: 200px; 
+}
+.inerr{
+    width: 17%;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 100px;
+    padding: 5px;
+    
+}
+.inerr:hover{
+    box-shadow: 5px 5px 5px 5px rgb(163, 163, 163);
+    background-color: white;
+    
+}
+.fa-sharp{
+    font-size: 30px;
+    color: #ff305b;
+    padding: 20px;
+}
+
+.faedback{
+    text-align: center;
+    padding: 10px;
+}
+.our-img{
+    width: 25%;
+    float: left;
+    margin-left: 80px;
+    position: relative;
+    
+}
+.our-img img{
+    width: 100%;
+}
+.col{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    
+}
+.our-img:hover .col{
+    opacity: 0.4;
+}
+.order{
+    padding: 15px 10%;
+    
+}
+.order li {
+    display: inline-block;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+}
+.order li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);}
+
+    .iner{
+        width: 15%;
+        float: left;
+        box-sizing: border-box;
+        margin-left: 120px;
+        text-align: center;
+       
+    }
+    .page{
+background-color: #f1f1f1;
+padding: 50px 20px;
+}
+.Feedback{
+    width: 45%;
+    height: 250px;
+    margin: 10px auto;
+    background:linear-gradient(140deg,#ff305b 18%,#f1f1f1 10%);
+}
+.Feedback img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.vip{
+    font-size: 15px;
+    color: #555555;
+    float: left;
+}
+.hd{
+    color:#f1c30d;
+    float: left;
+    padding: 0px 3px;
+    font-size: 15px;
+    
+}
+.fa-regular{
+    color:#f1c30d;
+    float: left;
+    padding: 0px 3px;
+    font-size: 15px;
+}
+.text-Alex{
+    width: 70%;
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+.text-Alex h2{
+    text-align: left;
+}
+.Our-Blog{
+    background-color: white;
+    width: 27%;
+    height: 400px;
+    float: left;
+    aspect-ratio: 16/9;
+    margin-left: 65px;
+    text-align: center;
+    
+    
+}
+.Our-Blog img{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.Our-Blog iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.form{
+    margin: 10px auto;
+}
+.fooder{
+    width: 100%;
+    height: 130px;
+    background-color: #333333;
+    background-attachment: scroll;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.fa-brands{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+.fa-brands:hover{
+    color:#ff305b;
+}
+.foter{margin-top: 40px;
+
+}
+.form{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+
+}
+.form button{
+    padding: 8px 15px;
+    border: none;
+    margin-right: 70%;
+ background-color: #ff305b;
+ color: white;
+ transition-duration: 2s;
+ font-weight: bold;
+ border-radius: 5px;
+}
+.form:hover button{
+    background-color: #ec2403;
+    
+}
+.form input{
+    padding: 10px 5px;   
+    margin: 2px 10px;
+}
+.form textarea{
+    padding: 5px 5px; 
+    width: 650px;  
+    height: 60px;
+}
+
+
+
+
+
+
+  
+
